@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -60,7 +60,7 @@
 		624BF4C91DD182F500A70E2C /* MediaKeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaKeyEvent.swift; sourceTree = "<group>"; };
 		627265F51D3CC84000703F85 /* KeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyEvent.swift; sourceTree = "<group>"; };
 		628908ED1DADB0B6008EF46A /* KeyMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyMapping.swift; sourceTree = "<group>"; };
-		629428171D387503001BD4E9 /* ⌘英かな.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "⌘英かな.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629428171D387503001BD4E9 /* ⌘KeyRemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "⌘KeyRemap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6294281A1D387503001BD4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6294281C1D387503001BD4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6294281E1D387503001BD4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +70,7 @@
 		62D162E61D3B350B009C95B0 /* toggleLaunchAtStartup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toggleLaunchAtStartup.swift; sourceTree = "<group>"; };
 		62FE51601DC70C5B0037B8D1 /* ExclusionAppsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusionAppsController.swift; sourceTree = "<group>"; };
 		62FE51621DC75ECE0037B8D1 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		94247CFB23452F2100C7AAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +115,7 @@
 		6294280E1D387503001BD4E9 = {
 			isa = PBXGroup;
 			children = (
-				629428191D387503001BD4E9 /* ⌘英かな */,
+				629428191D387503001BD4E9 /* ⌘KeyRemap */,
 				620E0B411D9F2F8F0067F88B /* cmd-eikana-helper */,
 				629428181D387503001BD4E9 /* Products */,
 			);
@@ -123,13 +124,13 @@
 		629428181D387503001BD4E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				629428171D387503001BD4E9 /* ⌘英かな.app */,
+				629428171D387503001BD4E9 /* ⌘KeyRemap.app */,
 				620E0B401D9F2F8F0067F88B /* cmd-eikana-helper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		629428191D387503001BD4E9 /* ⌘英かな */ = {
+		629428191D387503001BD4E9 /* ⌘KeyRemap */ = {
 			isa = PBXGroup;
 			children = (
 				6294281A1D387503001BD4E9 /* AppDelegate.swift */,
@@ -150,7 +151,7 @@
 				6242D4BD1DA395AC00CA80DD /* KeyTextField.swift */,
 				629428231D387503001BD4E9 /* Info.plist */,
 			);
-			name = "⌘英かな";
+			name = "⌘KeyRemap";
 			path = "cmd-eikana";
 			sourceTree = "<group>";
 		};
@@ -174,9 +175,9 @@
 			productReference = 620E0B401D9F2F8F0067F88B /* cmd-eikana-helper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		629428161D387503001BD4E9 /* ⌘英かな */ = {
+		629428161D387503001BD4E9 /* ⌘KeyRemap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 629428311D387503001BD4E9 /* Build configuration list for PBXNativeTarget "⌘英かな" */;
+			buildConfigurationList = 629428311D387503001BD4E9 /* Build configuration list for PBXNativeTarget "⌘KeyRemap" */;
 			buildPhases = (
 				629428131D387503001BD4E9 /* Sources */,
 				629428141D387503001BD4E9 /* Frameworks */,
@@ -187,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = "⌘英かな";
+			name = "⌘KeyRemap";
 			productName = StatusBarApp;
-			productReference = 629428171D387503001BD4E9 /* ⌘英かな.app */;
+			productReference = 629428171D387503001BD4E9 /* ⌘KeyRemap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = eikana;
 				TargetAttributes = {
 					620E0B3F1D9F2F8F0067F88B = {
@@ -208,7 +209,7 @@
 					};
 					629428161D387503001BD4E9 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1100;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -217,20 +218,21 @@
 					};
 				};
 			};
-			buildConfigurationList = 629428121D387503001BD4E9 /* Build configuration list for PBXProject "⌘英かな" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 629428121D387503001BD4E9 /* Build configuration list for PBXProject "⌘KeyRemap" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 6294280E1D387503001BD4E9;
 			productRefGroup = 629428181D387503001BD4E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				629428161D387503001BD4E9 /* ⌘英かな */,
+				629428161D387503001BD4E9 /* ⌘KeyRemap */,
 				620E0B3F1D9F2F8F0067F88B /* cmd-eikana-helper */,
 			);
 		};
@@ -304,6 +306,7 @@
 			children = (
 				629428211D387503001BD4E9 /* Base */,
 				620F5D681EA45B3300942FCC /* ja */,
+				94247CFB23452F2100C7AAAD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,9 +320,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "cmd-eikana-helper/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,9 +339,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "cmd-eikana-helper/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana-helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,14 +362,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -400,14 +419,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -427,7 +454,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -435,13 +463,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 16;
 				INFOPLIST_FILE = "cmd-eikana/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 3.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana";
-				PRODUCT_NAME = "⌘英かな";
-				SWIFT_VERSION = 3.0;
+				PRODUCT_NAME = "⌘KeyRemap";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -449,13 +483,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 16;
 				INFOPLIST_FILE = "cmd-eikana/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 3.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.imasanari.cmd-eikana";
-				PRODUCT_NAME = "⌘英かな";
-				SWIFT_VERSION = 3.0;
+				PRODUCT_NAME = "⌘KeyRemap";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -471,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		629428121D387503001BD4E9 /* Build configuration list for PBXProject "⌘英かな" */ = {
+		629428121D387503001BD4E9 /* Build configuration list for PBXProject "⌘KeyRemap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6294282F1D387503001BD4E9 /* Debug */,
@@ -480,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		629428311D387503001BD4E9 /* Build configuration list for PBXNativeTarget "⌘英かな" */ = {
+		629428311D387503001BD4E9 /* Build configuration list for PBXNativeTarget "⌘KeyRemap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				629428321D387503001BD4E9 /* Debug */,

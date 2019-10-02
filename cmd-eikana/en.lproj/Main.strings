@@ -1,11 +1,11 @@
 
 /* Class = "NSViewController"; title = "Key Remap"; ObjectID = "14e-rg-kjk"; */
-"14e-rg-kjk.title" = "キーリマップ";
+"14e-rg-kjk.title" = "Key Remap";
 
 /* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
 "1UK-8n-QPP.title" = "Customize Toolbar…";
 
-/* Class = "NSMenuItem"; title = "⌘英かな"; ObjectID = "1Xt-HY-uBw"; */
+/* Class = "NSMenuItem"; title = "⌘KeyRemap"; ObjectID = "1Xt-HY-uBw"; */
 "1Xt-HY-uBw.title" = "⌘KeyRemap";
 
 /* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
@@ -33,7 +33,7 @@
 "46P-cB-AYj.title" = "Tighten";
 
 /* Class = "NSButtonCell"; title = "check update"; ObjectID = "4Dh-kS-y64"; */
-"4Dh-kS-y64.title" = "確認する";
+"4Dh-kS-y64.title" = "check update";
 
 /* Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; */
 "4EN-yA-p0u.title" = "Find";
@@ -41,17 +41,17 @@
 /* Class = "NSTableColumn"; headerCell.title = "input"; ObjectID = "4Lt-aZ-uP6"; */
 "4Lt-aZ-uP6.headerCell.title" = "input";
 
-/* Class = "NSMenuItem"; title = "Quit ⌘英かな"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit ⌘英かな";
+/* Class = "NSMenuItem"; title = "Quit ⌘KeyRemap"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit ⌘KeyRemap";
 
 /* Class = "NSMenuItem"; title = "remove"; ObjectID = "502-f2-l6k"; */
-"502-f2-l6k.title" = "この項目を削除";
+"502-f2-l6k.title" = "remove";
 
 /* Class = "NSViewController"; title = "Exclusion Apps"; ObjectID = "5BL-ga-t3Q"; */
-"5BL-ga-t3Q.title" = "除外アプリ";
+"5BL-ga-t3Q.title" = "Exclusion Apps";
 
 /* Class = "NSMenuItem"; title = "move one up"; ObjectID = "5K6-xN-Jic"; */
-"5K6-xN-Jic.title" = "1つ上に移動";
+"5K6-xN-Jic.title" = "move one up";
 
 /* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
 "5QF-Oa-p0T.title" = "Edit";
@@ -59,11 +59,11 @@
 /* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "5Vv-lz-BsD"; */
 "5Vv-lz-BsD.title" = "Copy Style";
 
-/* Class = "NSMenuItem"; title = "About ⌘英かな"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About ⌘英かな";
+/* Class = "NSMenuItem"; title = "About ⌘KeyRemap"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About ⌘KeyRemap";
 
 /* Class = "NSButtonCell"; title = "check for update when start"; ObjectID = "6Pk-W2-evg"; */
-"6Pk-W2-evg.title" = "起動時にアップデートを確認";
+"6Pk-W2-evg.title" = "check for update when start";
 
 /* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
 "6dh-zS-Vam.title" = "Redo";
@@ -102,13 +102,13 @@
 "Dv1-io-Yv7.title" = "Spelling and Grammar";
 
 /* Class = "NSMenuItem"; title = "move to bottom"; ObjectID = "EUh-qz-H2g"; */
-"EUh-qz-H2g.title" = "最下部に移動";
+"EUh-qz-H2g.title" = "move to bottom";
 
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
 "F2S-fz-NVQ.title" = "Help";
 
 /* Class = "NSMenuItem"; title = "⌘英かな Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "⌘英かな Help";
+"FKE-Sm-Kum.title" = "⌘KeyRemap Help";
 
 /* Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; */
 "Fal-I4-PZk.title" = "Text";
@@ -194,8 +194,8 @@
 /* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "OaQ-X3-Vso"; */
 "OaQ-X3-Vso.title" = "Baseline";
 
-/* Class = "NSMenuItem"; title = "Hide ⌘英かな"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide ⌘英かな";
+/* Class = "NSMenuItem"; title = "Hide ⌘KeyRemap"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide ⌘KeyRemap";
 
 /* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
 "OwM-mh-QMV.title" = "Find Previous";
@@ -225,10 +225,10 @@
 "S0p-oC-mLd.title" = "Jump to Selection";
 
 /* Class = "NSMenuItem"; title = "move to the top"; ObjectID = "SPl-n7-KTj"; */
-"SPl-n7-KTj.title" = "最上部に移動";
+"SPl-n7-KTj.title" = "move to the top";
 
 /* Class = "NSButtonCell"; title = "show icon on menu bar"; ObjectID = "Swa-9Q-bjA"; */
-"Swa-9Q-bjA.title" = "メニューバーにアイコンを表示";
+"Swa-9Q-bjA.title" = "show icon on menu bar";
 
 /* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
 "Td7-aD-5lo.title" = "Window";
@@ -237,7 +237,7 @@
 "UEZ-Bs-lqG.title" = "Capitalize";
 
 /* Class = "NSButtonCell"; title = "start with system login"; ObjectID = "UJa-91-PJq"; */
-"UJa-91-PJq.title" = "ログイン後にこのアプリを起動";
+"UJa-91-PJq.title" = "start with system login";
 
 /* Class = "NSMenuItem"; title = "Center"; ObjectID = "VIY-Ag-zcb"; */
 "VIY-Ag-zcb.title" = "Center";
@@ -264,7 +264,7 @@
 "Xz5-n4-O0W.title" = "Find…";
 
 /* Class = "NSTextFieldCell"; title = "remapping is disabled for checked applications"; ObjectID = "Y1I-k0-J1y"; */
-"Y1I-k0-J1y.title" = "チェックがあるアプリではリマップが無効になります";
+"Y1I-k0-J1y.title" = "remapping is disabled for checked applications";
 
 /* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "YEy-JH-Tfz"; */
 "YEy-JH-Tfz.title" = "Find and Replace…";
@@ -336,25 +336,25 @@
 "f2N-dm-xIa.title" = "Eisuu";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[0] = "英数"; ObjectID = "f2N-dm-xIa"; */
-"f2N-dm-xIa.ibShadowedObjectValues[0]" = "英数";
+"f2N-dm-xIa.ibShadowedObjectValues[0]" = "English";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[1] = "かな"; ObjectID = "f2N-dm-xIa"; */
-"f2N-dm-xIa.ibShadowedObjectValues[1]" = "かな";
+"f2N-dm-xIa.ibShadowedObjectValues[1]" = "Kana";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[2] = "⇧かな"; ObjectID = "f2N-dm-xIa"; */
-"f2N-dm-xIa.ibShadowedObjectValues[2]" = "⇧かな";
+"f2N-dm-xIa.ibShadowedObjectValues[2]" = "⇧Kana";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[3] = "select the previous input source"; ObjectID = "f2N-dm-xIa"; */
-"f2N-dm-xIa.ibShadowedObjectValues[3]" = "前の入力ソースを選択";
+"f2N-dm-xIa.ibShadowedObjectValues[3]" = "select the previous input source";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[4] = "select next source in input menu"; ObjectID = "f2N-dm-xIa"; */
-"f2N-dm-xIa.ibShadowedObjectValues[4]" = "入力メニューの次のソースを選択";
+"f2N-dm-xIa.ibShadowedObjectValues[4]" = "select next source in input menu";
 
 /* Class = "NSComboBoxCell"; f2N-dm-xIa.ibShadowedObjectValues[5] = "Disable"; ObjectID = "f2N-dm-xIa"; */
 "f2N-dm-xIa.ibShadowedObjectValues[5]" = "Disable";
 
 /* Class = "NSMenuItem"; title = "move one down"; ObjectID = "fY1-dw-1o1"; */
-"fY1-dw-1o1.title" = "1つ下に移動";
+"fY1-dw-1o1.title" = "move one down";
 
 /* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
 "gVA-U4-sdL.title" = "Paste";
@@ -366,7 +366,7 @@
 "hQb-2v-fYv.title" = "Smart Quotes";
 
 /* Class = "NSButtonCell"; title = "Quit ⌘英かな"; ObjectID = "heb-5j-piH"; */
-"heb-5j-piH.title" = "Quit ⌘英かな";
+"heb-5j-piH.title" = "Quit";
 
 /* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "hz2-CU-CR7"; */
 "hz2-CU-CR7.title" = "Check Document Now";
@@ -417,13 +417,13 @@
 "qIB-xs-Dfg.title" = "Command_R";
 
 /* Class = "NSComboBoxCell"; qIB-xs-Dfg.ibShadowedObjectValues[0] = "英数"; ObjectID = "qIB-xs-Dfg"; */
-"qIB-xs-Dfg.ibShadowedObjectValues[0]" = "英数";
+"qIB-xs-Dfg.ibShadowedObjectValues[0]" = "English";
 
 /* Class = "NSComboBoxCell"; qIB-xs-Dfg.ibShadowedObjectValues[1] = "かな"; ObjectID = "qIB-xs-Dfg"; */
-"qIB-xs-Dfg.ibShadowedObjectValues[1]" = "かな";
+"qIB-xs-Dfg.ibShadowedObjectValues[1]" = "Kana";
 
 /* Class = "NSComboBoxCell"; qIB-xs-Dfg.ibShadowedObjectValues[2] = "⇧かな"; ObjectID = "qIB-xs-Dfg"; */
-"qIB-xs-Dfg.ibShadowedObjectValues[2]" = "⇧かな";
+"qIB-xs-Dfg.ibShadowedObjectValues[2]" = "⇧Kana";
 
 /* Class = "NSMenuItem"; title = "Page Setup…"; ObjectID = "qIS-W8-SiK"; */
 "qIS-W8-SiK.title" = "Page Setup…";
@@ -446,8 +446,8 @@
 /* Class = "NSMenu"; title = "Kern"; ObjectID = "tlD-Oa-oAM"; */
 "tlD-Oa-oAM.title" = "Kern";
 
-/* Class = "NSMenu"; title = "⌘英かな"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "⌘英かな";
+/* Class = "NSMenu"; title = "⌘KeyRemap"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "⌘KeyRemap";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
 "uRl-iY-unG.title" = "Cut";
@@ -456,7 +456,7 @@
 "uTH-4i-rjb.title" = "Text Cell";
 
 /* Class = "NSViewController"; title = "Setting"; ObjectID = "uYA-LV-zsC"; */
-"uYA-LV-zsC.title" = "設定";
+"uYA-LV-zsC.title" = "Setting";
 
 /* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "ugI-Ze-ysm"; */
 "ugI-Ze-ysm.title" = "Text";
@@ -491,8 +491,8 @@
 /* Class = "NSMenuItem"; title = "Use All"; ObjectID = "xQD-1f-W4t"; */
 "xQD-1f-W4t.title" = "Use All";
 
-/* Class = "NSTabViewController"; title = "⌘英かな"; ObjectID = "xjl-OD-0Sx"; */
-"xjl-OD-0Sx.title" = "⌘英かな";
+/* Class = "NSTabViewController"; title = "⌘KeyRemap"; ObjectID = "xjl-OD-0Sx"; */
+"xjl-OD-0Sx.title" = "⌘KeyRemap";
 
 /* Class = "NSMenuItem"; title = "Speech"; ObjectID = "xrE-MZ-jX0"; */
 "xrE-MZ-jX0.title" = "Speech";

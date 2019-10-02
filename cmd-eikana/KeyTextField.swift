@@ -34,13 +34,13 @@ class KeyTextField: NSComboBox {
         super.textDidEndEditing(obj)
         
         switch self.stringValue {
-        case "英数":
+        case "English":
             shortcut = KeyboardShortcut(keyCode: 102)
             break
-        case "かな":
+        case "Kana":
             shortcut = KeyboardShortcut(keyCode: 104)
             break
-        case "⇧かな":
+        case "⇧Kana":
             shortcut = KeyboardShortcut(keyCode: 104, flags: CGEventFlags.maskShift)
             break
         case "前の入力ソースを選択", "select the previous input source":

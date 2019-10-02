@@ -19,6 +19,7 @@ func checkUpdate(_ callback: ((_ isNewVer: Bool?) -> Void)? = nil) {
     
     let handler = { (res:URLResponse?,data:Data?,error:Error?) -> Void in
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+        print(version)
         var newVersion = ""
         var description = ""
         var url = "https://ei-kana.appspot.com"
@@ -38,19 +39,20 @@ func checkUpdate(_ callback: ((_ isNewVer: Bool?) -> Void)? = nil) {
             return;
         }
         
-        let isAbleUpdate: Bool? = (newVersion == "") ? nil : newVersion != version
+        print(newVersion > version)
+        let isAbleUpdate: Bool? = (newVersion == "") ? nil : newVersion > version
         
         if isAbleUpdate == true {
             let alert = NSAlert()
-            alert.messageText = "⌘英かな ver.\(newVersion) が利用可能です"
+            alert.messageText = "⌘KeyRemap ver.\(newVersion) Update"
             alert.informativeText = description
             alert.addButton(withTitle: "Download")
             alert.addButton(withTitle: "Cancel")
             // alert.showsSuppressionButton = true;
             let ret = alert.runModal()
             
-            if (ret == NSAlertFirstButtonReturn) {
-                NSWorkspace.shared().open(URL(string: url)!)
+            if (ret == NSApplication.ModalResponse.alertFirstButtonReturn) {
+                NSWorkspace.shared.open(URL(string: url)!)
             }
         }
         
